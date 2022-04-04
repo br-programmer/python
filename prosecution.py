@@ -11,10 +11,8 @@ elif(c >= 5):
 else:
     print('manor a 5')    
 
-
-# switch/case
-
-# Dictionary Mapping
+# ===============================
+# switch/case: Dictionary Mapping
 
 Sunday = 'Sunday'
 Monday = 'Monday'
@@ -63,7 +61,8 @@ switcher = {
 def switch(dayOfWeek:int):
     return switcher.get(dayOfWeek, default)()
 
-# Using classes
+# ===============================
+# switch/case: Using classes
 class PythonSwitch:
     def day(self, dayOfWeek):
         default = IncorrectDay
